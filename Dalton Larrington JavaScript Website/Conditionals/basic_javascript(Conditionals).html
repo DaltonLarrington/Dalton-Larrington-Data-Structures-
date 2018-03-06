@@ -1,0 +1,56 @@
+<html>
+
+<head>
+
+<title>Choose your starter!</title>
+
+	<style>
+	
+	img {
+	height: 200px;
+	width: 200px;
+	}
+	
+	</style>
+	
+</head>
+
+<body>
+
+	<h1>CHOOSE YOUR STARTER</h1>
+	
+		<div>
+		
+				1)<img src="bulbasaur.png">
+				2)<img src="squirtle.png">
+				3)<img src="charmander.png">
+				
+			</div>	
+
+<p id = "out"></p>
+
+
+	
+<script>	
+
+var choice = prompt("Which do you choose? 1, 2, or 3?")
+var text;
+
+if (choice == 1) {
+	text = "Bulbasaur";
+
+} else if (choice == 2) {
+	text = "Squirtle";
+
+} else if (choice == 3) {
+	text = "Charmander";
+	
+}
+
+document.getElementById("out").innerHTML = ("You chose " + text);
+	
+</script>
+
+</body>
+
+</html>
