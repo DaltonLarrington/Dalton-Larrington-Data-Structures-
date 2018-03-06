@@ -4,37 +4,37 @@
 
 </head>
 
+<style>
+
+</style>
+
 <body>
 
-<p>Click the button to enter your name for a custom greeting.</p>
+<p>Click the button for a custom greeting.</p>
 
-<button onclick ="greeting()">Click me</button>
+<button onclick="userInput()">Click me</button>
 
-<p id = "input"></p>
+<p id="input"></p>
+
+</body>
 
 <script>
-
-function greeting() {
-
-	var user = prompt("Enter your name", "George");
-
-	if(user != null) {
-		document.getElementById("input").innerHTML = 
-		"Hello " + user "! Welcome!";
-		
-}
-	
-}
 
 name = "Dalton"
 year = 2018
 
-document.write("Hello, World");
+document.write("Hello, world!");
+document.write(" Hello," + name + " ,the year is" + year + ".");
 
-document.write("Hello" + name " the year is" + year);
+function userInput(){
+	var person = prompt("Please enter your name", "John Doe");
+	if (person != null) {
+		document.getElementById("input").innerHTML = 
+		"Hello " + person + "! How are you today?";
+	}
+
+}
 
 </script>
-
-</body>
 
 </html>
