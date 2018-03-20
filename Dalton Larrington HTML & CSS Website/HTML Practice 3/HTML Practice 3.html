@@ -4,51 +4,107 @@
 
 <title>Welcome to Lamoni</title>
 
-</head>
-
 <style>
 
-h1 {
-
-	background: lightblue;
+* {
 	
+	box-sizing: border-box;
+	
+}
+
+.column {
+
+	float: left; 
+	width: 50%;
+	
+}
+
+.row:after {
+
+	content: "";
+	display: table;
+	clear: both;
+	
+}
+
+body {
+
+	margin: 0;
+	font-family: Arial;
+	background: navy;
+	color: white;
+
+}
+
+.header {
+
+	text-align: center;
+	padding: 32px;
+	background: tan;
+
 }
 
 </style>
 
+</head>
+
 <body>
 
+<div class="header" id="myHeader">
+	<h1>Welcome to Lamoni, Iowa</h1>
+</div>
+
+<div class="row">
+	<div class="column">
+	<img src="communitycenter.jpeg" style="width:40%">
+	<br>
+	<img src="collosseum.jpeg" style="width:40%">
+	<br>
+	<img src="auctionhouse.jpeg" style="width:40%">
+		
+	</div>
+	
+	<div class="column">
+	<h2>My Experience with Lamoni</h2>
+	<p>
+	   I grew up in small towns all my life, never really knowing what a large community is like. 
+	   Lamoni is like any other cow town. It has its cattle lots, and the traffic jams consist tractors and Amish buggies.
+	   Lamoni is slightly different from other small towns in Iowa. Lamoni has Graceland, which has made Lamoni what it is today.
+	   If Graceland where not in Lamoni, there would be less of a connection between professors and students. That is perhaps one of
+	   the greatest attributes of Lamoni, connections.
+	   </p>
+	
+	</div>	
+
+<h3>Landmarks:</h3>	
+	
+<div>	
+	<h3>Liden Street Coffee House</h3>	
+	<p>
+		The Liden Street Coffee House is the hip meeting place for all Lamoni residents.
+		Enjoy a hot cup of java while relaxing in a sooting environment.
+		Some nights you can find poetry slams here, and become a poet without knowing it.
+	</p>	
+</div>	
+	
 <div>
-
-<h1><center>Welcome to Lamoni, Iowa</center></h1>
-
+	<h3>The Coliseum</h3>
+	<p>
+		The Lamoni Coliseum is early 20th century theater with balcony seating.
+		The theater plays movies every weekend from Friday to Sunday. 
+		The Coliseum is a great get away for both students of Graceland, and the residence of Lamoni.	
+	</p>
 </div>
 
 <div>
-
-	<img src=".png">	
-	<p> </p>
-	
+	<h3>Graceland University</h3>
+	<p>Graceland University is the pinnacle of Lamoni. It's grand campus upon the hill
+	   is an eye catcher for visitors coming from afar. Graceland University is the cement
+	   to Lamoni's foundation</p>
 </div>
-
-<div>
-
-	<img src=".png">
-	<p> </p>
-	
-</div>
-
-<div>
-
-	<img src=".png">
-	<p> </p>
-	
+		
 </div>
 
 </body>
-
-<ul>	
-	
-</ul>
 
 </html>
