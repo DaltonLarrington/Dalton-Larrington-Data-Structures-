@@ -1,0 +1,35 @@
+<html>
+
+<head>
+
+</head>
+
+<style>
+
+</style>
+
+<body>
+
+<p>Click the button for magic</p>
+
+<button onClick = "userFunction()">Click</button>
+
+<p id="prompt"></p>
+
+</body>
+
+<script>
+
+function userFunction() {	
+	var user = prompt("Please enter a word");
+	if(user != null) {		
+		document.getElementById("prompt").innerHTML = 
+		"This is your palindrone: " + user;		
+		
+	}
+	
+}
+	
+</script>
+
+</html>
